@@ -9,6 +9,11 @@ Then, it deletes all the PNG files that have just been converted.
 Searches for all the commits with the given email in the history of the current git repository.
 Then, it updates them with the new email address + new username.
 
+When pushing, use the command above:
+```
+git push --force --all
+```
+
 ### replace_part_of_filename.sh
 Searches for all the files in the current directory whose titles contain the given expression.
 Then, it replaces the expression inside the titles with the new one.
