@@ -1,4 +1,8 @@
 #!/bin/sh
 
-for f in *.png ; do convert $f ${f/%png/xpm} ; done
+for file in *.png
+do
+	convert "$file" "${file%.png}.xpm"
+done
+
 rm *.png

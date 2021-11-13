@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 git filter-branch -f --env-filter '
 OLD_EMAIL="mail@gmail.com"
