@@ -5,9 +5,16 @@ A set of shell utils
 Converts all the PNG files of the current directory to XPM files.
 Then, it deletes all the PNG files that have just been converted.
 
-### modify_commit_user_id.sh
+### git_modify_commit_user_id.sh
 Searches for all the commits with the given email in the history of the current git repository.
 Then, it updates them with the new email address + new username.
+
+When pushing, use the command above:
+```
+git push --force --all
+```
+### git_modify_commit_user_id.sh
+Remove all trace of the given file from the git history.
 
 When pushing, use the command above:
 ```
